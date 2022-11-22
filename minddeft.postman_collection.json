@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "11a46ba7-042d-4c47-b5bb-4a2678aaa326",
+		"name": "minddeft",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14533415"
+	},
+	"item": [
+		{
+			"name": "get basic salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5008/api/v1/basic-salary?month=2&year=2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5008",
+					"path": [
+						"api",
+						"v1",
+						"basic-salary"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2"
+						},
+						{
+							"key": "year",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get total salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5008/api/v1/basic-salary?month=2&year=2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5008",
+					"path": [
+						"api",
+						"v1",
+						"basic-salary"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2"
+						},
+						{
+							"key": "year",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add user migration(dump-data)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5008/api/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5008",
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get over time amount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5008/api/v1/over-time?month=2&year=2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5008",
+					"path": [
+						"api",
+						"v1",
+						"over-time"
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2"
+						},
+						{
+							"key": "year",
+							"value": "2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bonus",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

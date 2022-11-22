@@ -1,0 +1,21 @@
+{
+    "name": "minddefth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon index.js"
+    },
+    "author": "hiren",
+    "license": "ISC",
+    "dependencies": {
+        "epress": "0.0.1-security",
+        "express": "^4.18.1",
+        "moment": "^2.29.3",
+        "mongo-uri-builder": "^4.0.0",
+        "mongoose": "^5.7.1",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.6"
+    }
+}
